@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+#game-container {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+}
+#paddle {
+    width: 80px;
+    height: 10px;
+    background-color: blue;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-radius: 50%;
+}
